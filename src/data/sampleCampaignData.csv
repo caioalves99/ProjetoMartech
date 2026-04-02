@@ -1,0 +1,13 @@
+date,campaign,impressions,clicks,cost,conversions
+2026-03-01,Busca Marca,1000,100,50,5
+2026-03-01,Display Remarketing,5000,50,100,2
+2026-03-02,Busca Marca,1200,120,60,6
+2026-03-02,Display Remarketing,4500,40,90,1
+2026-03-03,Busca Marca,800,80,40,4
+2026-03-03,Display Remarketing,6000,60,120,3
+2026-03-04,Busca Concorrentes,2000,40,80,1
+2026-03-04,Busca Marca,1100,110,55,5
+2026-03-05,Busca Concorrentes,2500,50,100,2
+2026-03-05,Display Remarketing,5500,55,110,2
+2026-03-06,Anuncio Inconsistente,0,10,20,0
+2026-03-06,Busca Marca,1300,130,65,7
