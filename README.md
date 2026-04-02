@@ -1,48 +1,48 @@
 # 🚀 MarTech Analytics Suite
 
-A modern web application for digital marketing data analysis, built with React, TypeScript, and SQL-in-browser capabilities.
+Uma aplicação web moderna para análise de dados de marketing digital, construída com React, TypeScript e capacidades de SQL no navegador.
 
-## 🎯 Business Problem
+## 🎯 Problema de Negócio
 
-Marketing analysts often deal with fragmented data and manual validation processes. The **MarTech Analytics Suite** addresses these challenges by providing:
-- **Automated Auditing:** Instant analysis of campaign performance with SQL-powered queries.
-- **Data Integrity:** A robust validator to ensure CSV data is consistent and error-free before analysis.
-- **Strategic Planning:** A performance simulator to predict campaign outcomes based on historical or hypothetical metrics.
+Analistas de marketing frequentemente lidam com dados fragmentados e processos de validação manual. O **MarTech Analytics Suite** aborda esses desafios fornecendo:
+- **Auditoria Automatizada:** Análise instantânea do desempenho de campanhas com consultas SQL.
+- **Integridade de Dados:** Um validador robusto para garantir que os dados CSV estejam consistentes e sem erros antes da análise.
+- **Planejamento Estratégico:** Um simulador de desempenho para prever resultados de campanhas com base em métricas históricas ou hipotéticas.
 
-## 🛠️ Technology Stack
+## 🛠️ Stack Tecnológica
 
 - **Frontend:** React (Vite) + TypeScript
-- **Styling:** Tailwind CSS
-- **Data Visualization:** Chart.js + react-chartjs-2
-- **Data Processing:** PapaParse (CSV) + AlaSQL (In-browser SQL)
-- **Deployment:** GitHub Pages (via GitHub Actions)
+- **Estilização:** Tailwind CSS
+- **Visualização de Dados:** Chart.js + react-chartjs-2
+- **Processamento de Dados:** PapaParse (CSV) + AlaSQL (SQL no navegador)
+- **Implantação:** GitHub Pages (via GitHub Actions)
 
-## 📊 Key Features
+## 📊 Principais Recursos
 
-### 1. Campaign Audit
-- Real-time calculation of CTR, CPC, and CPA using SQL.
-- Automated insights: Detection of high CPA, low CTR, and data inconsistencies (e.g., clicks without impressions).
-- Visual trends for costs and conversions.
+### 1. Auditoria de Campanha
+- Cálculo em tempo real de CTR, CPC e CPA usando SQL.
+- Insights automatizados: Detecção de CPA alto, CTR baixo e inconsistências de dados (ex: cliques sem impressões).
+- Tendências visuais para custos e conversões.
 
-### 2. Upload & Validation
-- Drag-and-drop/File upload for CSV files.
-- Rule-based validation (missing fields, negative costs, impossible CTRs).
-- **Quality Score:** A dynamic score based on data integrity.
+### 2. Upload & Validação
+- Upload de arquivos CSV via arrastar e soltar ou seleção de arquivo.
+- Validação baseada em regras (campos ausentes, custos negativos, CTRs impossíveis).
+- **Pontuação de Qualidade (Quality Score):** Uma pontuação dinâmica baseada na integridade dos dados.
 
-### 3. Performance Simulator
-- What-if analysis tool for budget planning.
-- Instant feedback on predicted conversions and CPA.
-- Strategic suggestions based on simulation results.
+### 3. Simulador de Desempenho
+- Ferramenta de análise "e se" (what-if) para planejamento de orçamento.
+- Feedback instantâneo sobre conversões e CPA previstos.
+- Sugestões estratégicas baseadas nos resultados da simulação.
 
-## 🚀 How to Run Locally
+## 🚀 Como Executar Localmente
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start development server: `npm run dev`
-4. Build for production: `npm run build`
+1. Clone o repositório
+2. Instale as dependências: `npm install`
+3. Inicie o servidor de desenvolvimento: `npm run dev`
+4. Gere o build para produção: `npm run build`
 
-## 📘 Examples of Insights
+## 📘 Exemplos de Insights
 
-- *“High CPA detected for campaign Search_Brand ($55.00). Consider optimizing targeting.”*
-- *“Low CTR detected for campaign Display_Retargeting (0.50%). Ad creative may need adjustment.”*
-- *“Data Quality Score: 85 (Atenção) - 3 inconsistencies found.”*
+- *“CPA alto detectado para a campanha Search_Brand ($55.00). Considere otimizar a segmentação.”*
+- *“CTR baixo detectado para a campanha Display_Retargeting (0.50%). O criativo do anúncio pode precisar de ajustes.”*
+- *“Pontuação de Qualidade dos Dados: 85 (Atenção) - 3 inconsistências encontradas.”*
