@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/martech-analytics-suite/',
+  base: '/ProjetoMartech/',
 })
