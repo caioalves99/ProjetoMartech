@@ -109,9 +109,7 @@ function App() {
                 setSelectedFileId(id);
                 setActiveTab('auditoria');
               }}
-              isDark={isDark}
-            />
-          )}
+              />          )}
           {activeTab === 'simulador' && <SimuladorPage />}
         </div>
       </main>

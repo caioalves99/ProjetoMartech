@@ -11,10 +11,9 @@ interface ValidadorPageProps {
   files: UploadedFile[];
   onDeleteFile: (id: string) => void;
   onSelectFile: (id: string) => void;
-  isDark: boolean;
 }
 
-const ValidadorPage: React.FC<ValidadorPageProps> = ({ onConfirmUpload, files, onDeleteFile, onSelectFile, isDark }) => {
+const ValidadorPage: React.FC<ValidadorPageProps> = ({ onConfirmUpload, files, onDeleteFile, onSelectFile }) => {
   const [errors, setErrors] = useState<ValidationError[]>([]);
   const [score, setScore] = useState<number | null>(null);
   const [pendingFile, setPendingFile] = useState<{ name: string; data: any[] } | null>(null);

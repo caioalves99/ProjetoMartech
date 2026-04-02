@@ -11,9 +11,9 @@ Analistas de marketing frequentemente lidam com dados fragmentados e processos d
 
 ## 🛠️ Stack Tecnológica
 
-- **Frontend:** React (Vite) + TypeScript;
-- **Estilização:** Tailwind CSS;
-- **Visualização de Dados:** Chart.js + react-chartjs-2;
+- **Frontend:** React (Vite) + TypeScript
+- **Estilização:** Tailwind CSS
+- **Visualização de Dados:** Chart.js + react-chartjs-2
 - **Processamento de Dados:** PapaParse (CSV) + AlaSQL (SQL no navegador)
 - **Implantação:** GitHub Pages (via GitHub Actions).
 
